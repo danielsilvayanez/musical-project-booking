@@ -1,12 +1,15 @@
-import { GlobalStyles } from '../styles/global-styles';
+import { Header } from '../components/header';
+import styled from 'styled-components';
+
+const HomeGridContainer = styled.div`
+  display: grid;
+  grid-template-columns: 1fr aut 1fr;
+`;
 
 export const HomePage = () => {
   return (
-    <>
-      <GlobalStyles />
-      <header>
-        <p>header and navigation</p>
-      </header>
+    <HomeGridContainer>
+      <Header />
       <main>
         <p>main content</p>
       </main>
@@ -14,6 +17,6 @@ export const HomePage = () => {
       <footer>
         <p>footer content</p>
       </footer>
-    </>
+    </HomeGridContainer>
   );
 };
