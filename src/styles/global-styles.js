@@ -2,15 +2,14 @@ import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyles = createGlobalStyle`
   /* Reset default margin and padding */
-  body,
+  body,  
   html {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif; /* Default font */
     background-color: #f7f7f7; /* Light gray background */
     color: #333; /* Dark text color */
     line-height: 1.5;
+    font-size: 16px;
   }
 
   /* Set box-sizing to border-box for all elements */
@@ -22,6 +21,12 @@ export const GlobalStyles = createGlobalStyle`
   h1, h2, h3, h4, h5, h6 {
     margin-top: 0;
     margin-bottom: 10px;
+    color: darkgoldenrod;
+    
+  }
+
+  p {
+    color: darkgoldenrod;
   }
 
   /* Links */
