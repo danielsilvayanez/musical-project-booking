@@ -2,10 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { HomePage } from './pages/home-page';
 import reportWebVitals from './reportWebVitals';
+import { GlobalStyles } from '../src/styles/global-styles';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <GlobalStyles />
     <HomePage />
   </React.StrictMode>,
 );
