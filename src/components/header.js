@@ -2,6 +2,7 @@ import { navigationArray } from '../utils/information';
 import styled from 'styled-components';
 import HeaderBackgroundImage from '../images/wes-hicks-MEL-jJnm7RQ-unsplash.jpg';
 import { BsBorderWidth } from 'react-icons/bs';
+import { ContactButton } from '../components/button';
 
 const HeaderContainer = styled.header`
   height: 600px;
@@ -59,11 +60,19 @@ export const Header = () => {
       <HeaderContent>
         <StyledNav>
           {navigationArray.map((navItem, index) => {
-            return (
-              <p>
-                <nav key={index}>{navItem}</nav>
-              </p>
-            );
+            if (index === navigationArray.length - 1) {
+              return (
+                <p>
+                  <ContactButton key={index} />
+                </p>
+              );
+            } else {
+              return (
+                <p>
+                  <nav key={index}>{navItem}</nav>
+                </p>
+              );
+            }
           })}
         </StyledNav>
         <StyledNavMenu>

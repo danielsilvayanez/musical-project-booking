@@ -1,9 +1,8 @@
 export const navigationArray = [
   'Home',
-  'Über uns',
+  'Über mich',
   'Services',
   'Portfolio',
   'Repartoire',
-  'Kontakt',
-  'Impressum',
+  'Tritt ans Mikro',
 ];
