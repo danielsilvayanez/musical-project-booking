@@ -5,7 +5,7 @@ export const GlobalStyles = createGlobalStyle`
   body,  
   html {
     box-sizing: border-box;
-    font-family: Arial, sans-serif; /* Default font */
+    font-family: 'Roboto Slab', serif;
     background-color: #f7f7f7; /* Light gray background */
     color: #333; /* Dark text color */
     line-height: 1.5;
