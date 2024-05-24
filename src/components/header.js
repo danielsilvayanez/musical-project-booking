@@ -1,6 +1,6 @@
 import { navigationArray } from '../utils/information';
 import styled from 'styled-components';
-import HeaderBackgroundImage from '../images/wes-hicks-MEL-jJnm7RQ-unsplash.jpg';
+import HeaderBackgroundImage from '../images/background-header.jpeg';
 import { BsBorderWidth } from 'react-icons/bs';
 import { ContactButton } from '../components/button';
 
@@ -9,7 +9,7 @@ const HeaderContainer = styled.header`
   height: 600px;
   background-image: url(${HeaderBackgroundImage});
   background-size: cover;
-  background-position: center;
+  background-position: center 80%;
 `;
 
 const HeaderContent = styled.div`

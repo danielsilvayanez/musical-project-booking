@@ -9,7 +9,11 @@ const StyledUl = styled.ul`
   flex-direction: column;
   align-items: center;
   list-style-type: none;
-  padding-left: 0;
+
+  li {
+    width: 100%;
+    border: 2px solid gold;
+  }
 `;
 
 export const SongLibrary = () => {
