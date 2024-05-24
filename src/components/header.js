@@ -5,6 +5,7 @@ import { BsBorderWidth } from 'react-icons/bs';
 import { ContactButton } from '../components/button';
 
 const HeaderContainer = styled.header`
+  grid-area: header;
   height: 600px;
   background-image: url(${HeaderBackgroundImage});
   background-size: cover;
