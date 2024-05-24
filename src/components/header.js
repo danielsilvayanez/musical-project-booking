@@ -48,10 +48,18 @@ const StyledNavMenu = styled.div`
   }
 `;
 
+const StyledNavItems = styled.nav`
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+  font-size: 1.5rem;
+`;
 const StyledBandName = styled.h1`
   display: flex;
   justify-content: center;
+  font-size: 3rem;
   align-items: bottom;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
 `;
 
 export const Header = () => {
@@ -61,15 +69,11 @@ export const Header = () => {
         <StyledNav>
           {navigationArray.map((navItem, index) => {
             if (index === navigationArray.length - 1) {
-              return (
-                <p>
-                  <ContactButton key={index} />
-                </p>
-              );
+              return <ContactButton key={index} />;
             } else {
               return (
                 <p>
-                  <nav key={index}>{navItem}</nav>
+                  <StyledNavItems key={index}>{navItem}</StyledNavItems>
                 </p>
               );
             }
@@ -78,7 +82,7 @@ export const Header = () => {
         <StyledNavMenu>
           <StyledIcon />
         </StyledNavMenu>
-        <StyledBandName>Band Name</StyledBandName>
+        <StyledBandName>Daniel Silva Yañez</StyledBandName>
       </HeaderContent>
     </HeaderContainer>
   );
