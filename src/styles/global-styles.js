@@ -2,7 +2,7 @@ import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyles = createGlobalStyle`
   /* Reset default margin and padding */
-  body,  
+  body,
   html {
     box-sizing: border-box;
     font-family: 'Roboto Slab', serif;
@@ -18,7 +18,7 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   /* Headings */
-  h1, h2, h3, h4, h5, h6 {
+  h1, h2, h3, h4, h5, h6, ul, li {
     margin-top: 0;
     margin-bottom: 10px;
     color: darkgoldenrod;
