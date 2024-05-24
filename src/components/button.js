@@ -14,6 +14,14 @@ const Button = styled.button`
   }
 `;
 
+const handleButtonClick = () => {
+  const contactEmail = 'danielsilvayanez@gmail.com';
+  const subject = 'Ich habe Interesse an einem Auftritt';
+  const body =
+    'Hallo Daniel, ich habe Interesse an einem Auftritt und möchte mehr Informationen erhalten.';
+  window.open(`mailto:${contactEmail}?subject=${subject}&body=${body}`);
+};
+
 export const ContactButton = () => {
-  return <Button>Tritt ans Mikro</Button>;
+  return <Button onClick={handleButtonClick}>Tritt ans Mikro</Button>;
 };
