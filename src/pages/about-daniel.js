@@ -1,4 +1,4 @@
-import { aboutMeDescription } from '../utils/information';
+import data from '../utils/information';
 import { StyledSection } from '../styles/general-styles';
 import styled from 'styled-components';
 import Portrait from '../images/daniel-portrait.jpeg';
@@ -23,10 +23,18 @@ export const AboutMe = () => {
   return (
     <StyledSection>
       <h1>Hinter den Noten</h1>
-      <StyledAboutMe>
-        <img src={Portrait} height="250px" alt="Portrait of Daniel" />
-        <p>{aboutMeDescription}</p>
-      </StyledAboutMe>
+      {data.artistInformation.map((artist) => {
+        return (
+          <>
+            <h2> {artist.name}</h2>
+            <StyledAboutMe>
+              <img src={Portrait} height="250px" alt="Portrait of Daniel" />
+              <p>{artist.description}</p>
+            </StyledAboutMe>
+            <hr />
+          </>
+        );
+      })}
     </StyledSection>
   );
 };
