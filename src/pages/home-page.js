@@ -1,6 +1,6 @@
 import { Header } from '../components/header';
 import styled from 'styled-components';
-import { AboutMe } from '../components/about-me';
+import { AboutMe } from './about-daniel';
 import { SongLibrary } from '../components/song-library';
 
 const HomeGridContainer = styled.div`
