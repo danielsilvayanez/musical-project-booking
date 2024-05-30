@@ -1,4 +1,4 @@
-import { navigationArray } from '../utils/information';
+import data from '../utils/information.json';
 import styled from 'styled-components';
 import HeaderBackgroundImage from '../images/background-header.jpeg';
 import { BsBorderWidth } from 'react-icons/bs';
@@ -68,8 +68,8 @@ export const Header = () => {
     <HeaderContainer>
       <HeaderContent>
         <StyledNav>
-          {navigationArray.map((navItem, index) => {
-            if (index === navigationArray.length - 1) {
+          {data.headerNavigation.map((navItem, index) => {
+            if (index === data.length - 1) {
               return <ContactButton key={index} />;
             } else {
               return (
