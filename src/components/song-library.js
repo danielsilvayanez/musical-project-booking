@@ -1,4 +1,4 @@
-import { songLibrary } from '../utils/information';
+import data from '../utils/information';
 import { StyledSection } from '../styles/general-styles';
 import styled from 'styled-components';
 
@@ -28,7 +28,7 @@ export const SongLibrary = () => {
         Anfragen könnt ihr gerne jederzeit schicken!
       </p>
       <StyledUl>
-        {songLibrary.map((song, index) => (
+        {data.songLibrary.map((song, index) => (
           <li key={index}>{song}</li>
         ))}
       </StyledUl>
