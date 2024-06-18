@@ -12,7 +12,6 @@ const StyledUl = styled.ul`
 
   li {
     width: 100%;
-    border: 2px solid gold;
   }
 `;
 
