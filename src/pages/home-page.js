@@ -1,7 +1,8 @@
 import { Header } from '../components/header';
 import styled from 'styled-components';
-import { AboutMe } from './about-daniel';
+import { AboutArtist } from './about-artist';
 import { SongLibrary } from '../components/song-library';
+import { ContactForm } from '../components/contact-form';
 
 const HomeGridContainer = styled.div`
   display: grid;
@@ -21,8 +22,9 @@ export const HomePage = () => {
     <HomeGridContainer>
       <Header />
       <StyledMain>
-        <AboutMe />
+        <AboutArtist />
         <SongLibrary />
+        <ContactForm />
       </StyledMain>
 
       <footer>
