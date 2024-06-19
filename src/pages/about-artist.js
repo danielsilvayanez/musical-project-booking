@@ -8,9 +8,9 @@ const images = {
 };
 
 const StyledAboutMe = styled.div`
-  display: flex;
   gap: 20px;
   align-items: center;
+  margin-bottom: 40px;
   img {
     border-radius: 30%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -23,27 +23,34 @@ const StyledAboutMe = styled.div`
   }
 `;
 
+const StyledArtistSection = styled.div`
+  display: flex;
+  text-align: center;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 40px;
+`;
+
 export const AboutArtist = () => {
   return (
     <StyledSection id="Hinter den Noten">
-      <h1>Hinter den Noten</h1>
-      {data.artistInformation.map((artist) => {
-        console.log(artist.image);
-        return (
-          <>
-            <h2> {artist.name}</h2>
-            <StyledAboutMe>
-              <img
-                src={images[artist.image]}
-                height="250px"
-                alt="Portrait of Artist"
-              />
-              <p>{artist.description}</p>
-            </StyledAboutMe>
-            <hr />
-          </>
-        );
-      })}
+      <StyledArtistSection>
+        {data.artistInformation.map((artist) => {
+          return (
+            <div>
+              <h3> {artist.name}</h3>
+              <StyledAboutMe>
+                <img
+                  src={images[artist.image]}
+                  height="250px"
+                  alt="Portrait of Artist"
+                />
+                <p>{artist.description}</p>
+              </StyledAboutMe>
+            </div>
+          );
+        })}
+      </StyledArtistSection>
     </StyledSection>
   );
 };
