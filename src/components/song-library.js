@@ -17,7 +17,7 @@ const StyledUl = styled.ul`
 
 export const SongLibrary = () => {
   return (
-    <StyledSection>
+    <StyledSection id="Songbibliothek">
       <h1>Songbibliothek</h1>
       <p>
         Hier findet ihr eine Übersicht über Songs, die ich im Center Parcs

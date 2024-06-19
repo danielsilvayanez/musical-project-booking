@@ -25,7 +25,7 @@ const StyledAboutMe = styled.div`
 
 export const AboutArtist = () => {
   return (
-    <StyledSection>
+    <StyledSection id="Hinter den Noten">
       <h1>Hinter den Noten</h1>
       {data.artistInformation.map((artist) => {
         console.log(artist.image);

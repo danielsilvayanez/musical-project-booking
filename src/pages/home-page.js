@@ -4,7 +4,7 @@ import { AboutArtist } from './about-artist';
 import { SongLibrary } from '../components/song-library';
 import { ContactForm } from '../components/contact-form';
 
-const HomeGridContainer = styled.div`
+const HomeGridContainer = styled.section`
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto 1fr auto;
@@ -19,7 +19,7 @@ const StyledMain = styled.main`
 
 export const HomePage = () => {
   return (
-    <HomeGridContainer>
+    <HomeGridContainer id="Ouvertüre">
       <Header />
       <StyledMain>
         <AboutArtist />
