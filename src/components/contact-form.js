@@ -107,7 +107,7 @@ export const ContactForm = () => {
   };
 
   return (
-    <FormSection>
+    <FormSection id="Tritt ans Mikro">
       <StyledForm onSubmit={handleSubmit}>
         <h1>Kontakt</h1>
         <Label htmlFor="name">
