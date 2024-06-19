@@ -53,7 +53,15 @@ const StyledNavItems = styled.nav`
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
     1px 1px 0 #000;
   font-size: 1.5rem;
+
+  a {
+    text-decoration: none;
+    /* tbc */
+    color: gold;
+    cursor: pointer;
+  }
 `;
+
 const StyledBandName = styled.h1`
   display: flex;
   justify-content: center;
@@ -73,9 +81,9 @@ export const Header = () => {
               return <ContactButton key={index} />;
             } else {
               return (
-                <p>
-                  <StyledNavItems key={index}>{navItem}</StyledNavItems>
-                </p>
+                <StyledNavItems key={index}>
+                  <a href={`#${navItem.id}`}>{navItem.label}</a>
+                </StyledNavItems>
               );
             }
           })}
