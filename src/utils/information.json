@@ -1,7 +1,7 @@
 {
   "headerNavigation": [
     {
-      "id": "Ouvertüre",
+      "id": "Ouverture",
       "label": "Ouvertüre"
     },
     {
@@ -63,22 +63,22 @@
     {
       "image": "daniel",
       "name": "Daniel",
-      "description": "background information about Daniel"
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus iusto ut eum? Eveniet, quae. Ab necessitatibus vitae dolores laborum ipsa iusto vero fugiat ad fugit quod, doloremque rerum voluptatem    beatae? Lorem ipsum dolor sit amet consectetur adipisicing elit."
     },
     {
       "image": "daniel",
       "name": "Linda",
-      "description": "background information about Linda"
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus iusto ut eum? Eveniet, quae. Ab necessitatibus vitae dolores laborum ipsa iusto vero fugiat ad fugit quod, doloremque rerum voluptatem    beatae? Lorem ipsum dolor sit amet consectetur adipisicing elit."
     },
     {
       "image": "daniel",
       "name": "Janna",
-      "description": "background information about Janna"
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus iusto ut eum? Eveniet, quae. Ab necessitatibus vitae dolores laborum ipsa iusto vero fugiat ad fugit quod, doloremque rerum voluptatem    beatae? Lorem ipsum dolor sit amet consectetur adipisicing elit."
     },
     {
       "image": "daniel",
       "name": "Torsten",
-      "description": "background information about Torsten"
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus iusto ut eum? Eveniet, quae. Ab necessitatibus vitae dolores laborum ipsa iusto vero fugiat ad fugit quod, doloremque rerum voluptatem    beatae? Lorem ipsum dolor sit amet consectetur adipisicing elit."
     }
   ]
 }

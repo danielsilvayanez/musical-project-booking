@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import { AboutArtist } from './about-artist';
 import { SongLibrary } from '../components/song-library';
 import { ContactForm } from '../components/contact-form';
+import { Overture } from './overture';
 
 const HomeGridContainer = styled.section`
   display: grid;
@@ -22,6 +23,7 @@ export const HomePage = () => {
     <HomeGridContainer id="Ouvertüre">
       <Header />
       <StyledMain>
+        <Overture />
         <AboutArtist />
         <SongLibrary />
         <ContactForm />
