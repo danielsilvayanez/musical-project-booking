@@ -1,11 +1,29 @@
 {
   "headerNavigation": [
-    "Ouvertüre",
-    "Hinter den Noten",
-    "Notenpalette",
-    "Musikchronik",
-    "Songbibliothek",
-    "Tritt ans Mikro"
+    {
+      "id": "Ouvertüre",
+      "label": "Ouvertüre"
+    },
+    {
+      "id": "Hinter den Noten",
+      "label": "Hinter den Noten"
+    },
+    {
+      "id": "Notenpalette",
+      "label": "Notenpalette"
+    },
+    {
+      "id": "Musikchronik",
+      "label": "Musikchronik"
+    },
+    {
+      "id": "Songbibliothek",
+      "label": "Songbibliothek"
+    },
+    {
+      "id": "Tritt ans Mikro",
+      "label": "Tritt ans Mikro"
+    }
   ],
   "songLibrary": [
     "Mambo No. 5, Lou Bega",
