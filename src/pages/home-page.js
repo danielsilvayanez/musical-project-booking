@@ -4,6 +4,7 @@ import { AboutArtist } from './about-artist';
 import { SongLibrary } from '../components/song-library';
 import { ContactForm } from '../components/contact-form';
 import { Overture } from './overture';
+import { Footer } from '../components/footer';
 
 const HomeGridContainer = styled.section`
   display: grid;
@@ -28,10 +29,7 @@ export const HomePage = () => {
         <SongLibrary />
         <ContactForm />
       </StyledMain>
-
-      <footer>
-        <p>footer content</p>
-      </footer>
+      <Footer />
     </HomeGridContainer>
   );
 };
