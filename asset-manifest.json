@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.js": "/musical-project-booking/static/js/main.a1096310.js",
+    "static/js/453.615eafb1.chunk.js": "/musical-project-booking/static/js/453.615eafb1.chunk.js",
+    "static/media/background-header.jpeg": "/musical-project-booking/static/media/background-header.771c97d8d77591ab368f.jpeg",
+    "static/media/daniel-portrait.jpeg": "/musical-project-booking/static/media/daniel-portrait.4c8629788f0463c241a8.jpeg",
+    "index.html": "/musical-project-booking/index.html",
+    "main.a1096310.js.map": "/musical-project-booking/static/js/main.a1096310.js.map",
+    "453.615eafb1.chunk.js.map": "/musical-project-booking/static/js/453.615eafb1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.a1096310.js"
+  ]
+}
