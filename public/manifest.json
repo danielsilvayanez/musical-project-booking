@@ -1,6 +1,6 @@
 {
-  "short_name": "Music",
-  "name": "Music is Life",
+  "short_name": "React App",
+  "name": "Create React App Sample",
   "icons": [
     {
       "src": "favicon.ico",
