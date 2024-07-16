@@ -2,7 +2,7 @@
   "name": "musical-project",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://musical-project-booking-axv6841kp-daniel-silva-yanezs-projects.vercel.app",
+  "homepage": "/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
